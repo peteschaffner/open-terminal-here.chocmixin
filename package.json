@@ -1,0 +1,16 @@
+{
+  "name": "open-terminal-here",
+  "version": "1.0.0",
+  "description": "Opens a Terminal window in the current file's directory",
+  "main": "init.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peteschaffner/open-terminal-here.chocmixin.git"
+  },
+  "keywords": [
+    "terminal",
+    "shell"
+  ],
+  "author": "Pete Schaffner",
+  "license": "WTFPL2"
+}
