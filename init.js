@@ -15,5 +15,5 @@ Hooks.addMenuItem('Go/Open Terminal Here', 'cmd+shift+o', function () {
       fileName = Document.current().displayName(),
       dirPath = filePath.replace(fileName, '');
 
-  exec('open -a Terminal ' + dirPath);
+  exec('open -a Terminal "' + dirPath + '"');
 });
